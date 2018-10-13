@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         String nameInput = name.getText().toString();
         textAfterSubmit.setText(nameInput + " was submitted");
 
+        // submit data to firebase using method
         submitData();
 
         // replace submit button with text and show submit_another button
